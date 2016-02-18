@@ -57,34 +57,36 @@ time, mark, audio, video
 
 /*----------CSS for page--------*/
 
-	body {
+body {
 		background-color: #FDF3E7;
 	}
 	
-	#header {
+#header {
 		width: 100%;
 		background-color: #ADD8E6;
                 padding:1em 1em 1em 1em;
 		text-align: center;
+		height:20%;
 	}
 
-	h1 {
+
+/*h1 {
 		display: inline;
 		font-family: 'Lato', sans-serif;
-		font-size: 4em;	
+		font-size: 250%;	
 		color: #000080;
 		float: center;
 		margin-left: -3em;
 	}
-
-	h3 {
+*/
+h3 {
 		font-family: 'Old Standford', serif;
 		font-size: 2em;
 		margin-left: -3em;
 		float: center;
 	}
 
-	button{
+button{
 		border: 1em black;
 		background-color: #d3d3d3;
 		color: red;
@@ -94,24 +96,32 @@ time, mark, audio, video
 	}
 		
 
-	#Info {
-		font-family: 'Arvo', serif;	
-		font-weight: 200;
-		padding: 3em;
-		margin: 0.5em;
-		line-height: 1em;
+#Info {
+	font-family: 'Arvo', serif;	
+	font-weight: 200;
+	padding: 3em;
+	margin: 0.5em;
+	line-height: 1em;
 	}
 
-	label {
-		font-size:1em;
-	}
 
-	img {
-		float:left;
-		height: 7em;
-		width: 13em;
-		padding: auto;
+label {
+	display:block;
+	float:left;
+	clear:left;
+	font-size:1em;
+	font-weight:bold;
+	width:100%;
+	margin-top:15px;
+	margin-bottom:10px;
+
 		
 	}
+
+p     { 
+        font-size:1em;
+	font-weight:bold;
+      }
+
 
 	
